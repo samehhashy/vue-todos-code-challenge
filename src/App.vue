@@ -1,28 +1,39 @@
 <template>
-  <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
-  </div>
+  <v-app>
+    <v-toolbar
+      app
+    >
+      <v-toolbar-title v-text="title"/>
+    </v-toolbar>
+    <v-content>
+      <v-layout
+        align-center
+        fill-height
+        justify-center
+      >
+        <v-flex xs6>
+          <TodoForm />
+          <TodoList/>
+        </v-flex>
+      </v-layout>
+    </v-content>
+  </v-app>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import TodoForm from '@/components/todo-form'
+import TodoList from '@/components/todo-list'
 
 export default {
-  name: 'app',
+  name: 'App',
   components: {
-    HelloWorld
+    TodoForm,
+    TodoList,
+  },
+  data () {
+    return {
+      title: 'Vue Todos'
+    }
   }
 }
 </script>
-
-<style>
-#app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
-</style>
