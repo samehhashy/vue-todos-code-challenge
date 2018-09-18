@@ -1,7 +1,7 @@
 ![i22 Logo](src/assets/i22_web-styleguide_down_wortmarke1rgb_blau.png "i22")
 
 # Vue todo code challenge
-**vue-todo** is a code challenge for fullstack developers.
+**vue-todos-code-challenge** is a code challenge for fullstack developers.
 
 ## Scenario
 So here you are! You decided to apply for a job at i22 and now they are asking you to help them out.
