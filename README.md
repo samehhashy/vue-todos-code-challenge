@@ -2,10 +2,12 @@
 **vue-todos-code-challenge** is a code challenge for Vue.JS developers applying for a job at i22.
 
 ## Scenario
-So here you are! You decided to apply for a job at i22 and now they are asking you to help them out.
-Unfortunately we decided to create one more todo app which the world doesn't need and your task is to finish this one.
+So here you are! You decided to apply for a job at i22 and now we are asking you to help us with a Todo App.
+We already setup a brand new project for you that already contains a very basic Vue.js setup. Your task is now to finish the Todo App by storing todos only in the client storage.
 
+## Technical start point
 Our team was already able to complete the following:
+
 * Add `axios` for REST api calls
 * Add `vuex` and create a default store
 * Add `vuetify` for UI components
