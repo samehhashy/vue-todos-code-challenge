@@ -8,7 +8,6 @@ We already setup a brand new project for you that already contains a very basic 
 ## Technical start point
 Our team was already able to complete the following:
 
-* Add `axios` for REST api calls
 * Add `vuex` and create a default store
 * Add `vuetify` for UI components
 * Add `vue-types` for prop validation
