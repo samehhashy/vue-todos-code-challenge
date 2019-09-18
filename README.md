@@ -1,4 +1,4 @@
-# Vue todo code challenge
+# Vue todos code challenge
 **vue-todos-code-challenge** is a code challenge for Vue.JS developers applying for a job at i22.
 
 ## Scenario
