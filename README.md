@@ -1,7 +1,5 @@
-![i22 Logo](src/assets/i22_web-styleguide_down_wortmarke1rgb_blau.png "i22")
-
 # Vue todo code challenge
-**vue-todos-code-challenge** is a code challenge for fullstack developers.
+**vue-todos-code-challenge** is a code challenge for Vue.JS developers applying for a job at i22.
 
 ## Scenario
 So here you are! You decided to apply for a job at i22 and now they are asking you to help them out.
@@ -15,17 +13,16 @@ Our team was already able to complete the following:
 * Add the basic app and component structure
 
 ## Mission
-- [ ] Connect the app to the given backend api (should be REST).
-- [ ] Fetch all existing todos from the backend and display them in the frontend.
-- [ ] Add a todo and submit it to the backend.
-- [ ] Update the status of a todo, display the changed status in the frontend and submit it to the backend.
-- [ ] Delete a todo and submit it to the backend.
-- [ ] Use the Vuex store.
-- [ ] Dynamically fill the Vue components with data
-- [ ] Validate the props. Optional: use `vue-types`.
-- [ ] Open a new branch for your changes and give it a good name.
-- [ ] Write a nice commit message.
-- [ ] Push your branch.
+- [ ] Fork this repository
+- [ ] Create a named `vuex` module to hold your todos
+- [ ] Complete the CRUD features in the GUI and make sure they are reflected in the store
+- [ ] Make sure the `todo-list` component dynamically displays the todos
+- [ ] Write concise commit messages
+- [ ] Submit a merge request and describe your changes precisely
+
+## Bonus
+- [ ] Add [Vuex-ORM](https://vuex-orm.github.io/vuex-orm/)
+- [ ] Add [TypeScript](https://typescriptlang.org)
 
 ## Please note
 - Pay attention to your code style and structure, don't ignore the eslint hints.
@@ -38,34 +35,29 @@ Our team was already able to complete the following:
 ## Feel free to
 - Improve the design to have better UI and UX.
 - Re-organize the codebase.
+- Use TypeScript.
 - Create new modules/methods/components.
 - Modify existing code.
 - Add new packages.
 - Edit `README.md` to add documentation.
-
-## When in trouble
-- We don't expect you to finish everything in one day.
-- Focus on the *essentials*, do *bonus* only if there is time left.
-- This task is not battle proven yet, there might be errors or missing documentation.
-- Ask your colleagues, they are friendly.
-- Also google is your friend.
+- Fix potential bugs
 
 ## Project setup
 ```
-yarn install
+npm install
 ```
 
 ### Compiles and hot-reloads for development
 ```
-yarn run serve
+npm run serve
 ```
 
 ### Compiles and minifies for production
 ```
-yarn run build
+npm run build
 ```
 
 ### Lints and fixes files
 ```
-yarn run lint
+npm run lint
 ```
