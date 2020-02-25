@@ -20,7 +20,7 @@
     "@vue/cli-service": "^3.11.0",
     "babel-plugin-transform-imports": "^2.0.0",
     "eslint-plugin-vue-types": "^1.0.1",
-    "stylus": "^0.54.5",
+    "stylus": "^0.54.7",
     "stylus-loader": "^3.0.1",
     "vue-cli-plugin-axios": "^0.0.4",
     "vue-cli-plugin-vuetify": "^0.1.6",
