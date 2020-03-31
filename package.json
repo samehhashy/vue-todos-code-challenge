@@ -37,8 +37,7 @@
       "plugin:vue-types/strongly-recommended",
       "eslint:recommended"
     ],
-    "rules": {
-    }
+    "rules": {}
   },
   "postcss": {
     "plugins": {
