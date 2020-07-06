@@ -1,0 +1,9 @@
+.dialog {
+  position: relative;
+  &__title {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+    color: $color-primary;
+  }
+}
